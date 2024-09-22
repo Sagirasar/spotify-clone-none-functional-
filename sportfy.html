@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sportfy.css">
+    <link rel="icon" href="./assest/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidbar">
+            <div class="nav">
+                <div class="nav_option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+                <div class="library">
+                    <div class="option">
+                        <div class="lab_option nav_option">
+                           <img src="./assest/library_icon.png" alt="icon">
+                            <a href="#">Your Library</a> 
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="lib_box">
+                        <div class="box">
+                            <p class="box-1">Create your first playlist</p>
+                            <p class="box-2">It's easy, we'll help you</p>
+                            <button class="badge">Create playlist</button>
+                        </div>
+                        <div class="box">
+                            <p class="box-1">Let's find some podcasts to follow</p>
+                            <p class="box-2">We'll keep you updated on new episodes</p>
+                            <button class="badge">Browse podcasts</button>
+                        </div>
+                    </div>
+                </div>
+        </div>    
+        <div class="main_content">
+            <div class="stiky_nav">
+                <div class="stiky_nav_icons"> 
+                    <img src="./assest/backward_icon.png" >
+                    <img src="./assest/forward_icon.png" class="hide">
+                </div>
+                <div class="stiky_nav_option">
+                    <button class="badge nav_button hide">Explore Premium</button>
+                    <button class="badge nav_button dark-badge"> <i class="fa-regular fa-circle-down" style="margin-right: 10px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav_button"></i>
+                </div>
+            </div>
+            <div class="cards">
+                <h2> Recent Played</h2>
+                <div class="card_container">
+                    <div class="card">
+                        <img src="./assest/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+                <h2> Trending now near you</h2>
+                <div class="card_container">
+                    <div class="card">
+                        <img src="./assest/card2img.jpeg" class="card-img">
+                        <p class="card-title">Mahiye Jinne Sohna</p>
+                        <p class="card-info">Darshan Raval</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card3img.jpeg" class="card-img">
+                        <p class="card-title">Mere Pass Tum Hoo</p>
+                        <p class="card-info">Rahat Fateh Ali Khan</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card4img.jpeg" class="card-img">
+                        <p class="card-title">Naa Ready </p>
+                        <p class="card-info">Anirudha Raviahandar , Thalaputhy, Asad,</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card7img.jpeg" class="card-img">
+                        <p class="card-title">Ooo Janne Jana</p>
+                        <p class="card-info"> Kamaal Khan , Pyar Kiya To Darna Kya, Salman Khan</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card8img.jpeg" class="card-img">
+                        <p class="card-title">O Jaana</p>
+                        <p class="card-info"> Udit Narayan, Tere Naam, Salman Khan </p>
+                    </div>
+                </div>
+                <h2> Featured charts</h2>
+                <div class="card_container">
+                    <div class="card">
+                        <img src="./assest/card5img.jpeg" class="card-img">
+                        <p class="card-title"> Top Song - Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card6img.jpeg" class="card-img">
+                        <p class="card-title">Top Song - India</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+            </div>
+           <div class="footer">
+            <div class="line"></div>
+           </div>
+        </div>
+        <div class="music_player">
+            <div class="album">
+                <img src="./assest/card7img.jpeg" class="album-img">
+                <div class="album-content">
+                    <p class="title-name">Ooo Jaane Jana</p>
+                    <p class="info-name">Kamaal Khan</p>
+                </div>
+                <div class="album-icons">
+                    <i class="fa-regular fa-heart icon-box"></i>
+                   <img src="./assest/album_icon2.png" class="icon-box" >
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assest/player_icon1.png" class="player-control-icons">
+                    <img src="./assest/player_icon2.png" class="player-control-icons">
+                    <img src="./assest/player_icon3.png" class="player-control-icons" id="play-hover" > 
+                    <img src="./assest/player_icon4.png" class="player-control-icons">
+                    <img src="./assest/player_icon5.png" class="player-control-icons">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control-box">
+                <img src="./assest/controls_icon1.png" class="control-icons icon-box">
+                <img src="./assest/controld_icon2.png" class="control-icons icon-box">
+                <img src="./assest/controls_icon3.png" class=" small icon-box">
+                <img src="./assest/controls_icon4.png" class=" small icon-box">
+                <img src="./assest/controls_icon5.png" class="control-icons icon-box">
+                <div class="sound-con">
+                    <input type="range" min="0" max="100" class="sound-control icon-box">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
